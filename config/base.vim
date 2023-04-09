@@ -12,9 +12,6 @@
 
 filetype plugin indent on
 
-" Treat the Lissp language as generic Lisp to activate parinfer.
-au BufRead,BufNewFile *.lissp             setfiletype lisp
-
 set wildmode=longest,list  " Bash-like tab completion of file paths.
 
 set modeline  " Enable file-specific settings.
@@ -57,6 +54,7 @@ vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
 
 " Colour scheme.
+set background=dark  " Specifically recommended for palenight.
 colorscheme palenight
 let g:palenight_terminal_italics=1
 if (has("termguicolors"))
@@ -74,3 +72,8 @@ let g:ale_fixers = {
 \   'python': ['isort', python_formatter],
 \}
 let g:ale_fix_on_save = 1  " Enable fix-on-save.
+
+let g:deoplete#enable_at_startup = 1
+
+" Treat the Lissp language as generic Lisp to activate parinfer-rust.
+au BufRead,BufNewFile *.lissp             setfiletype lisp

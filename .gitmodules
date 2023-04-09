@@ -10,3 +10,9 @@
 [submodule "start/deoplete-jedi"]
 	path = start/deoplete-jedi
 	url = https://github.com/deoplete-plugins/deoplete-jedi
+[submodule "start/parinfer-rust"]
+	path = start/parinfer-rust
+	url = https://github.com/eraserhd/parinfer-rust
+[submodule "start/palenight"]
+	path = start/palenight
+	url = https://github.com/drewtempelmeyer/palenight.vim

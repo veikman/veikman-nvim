@@ -19,19 +19,37 @@ To activate them, clone recursively or run:
 
     git submodule update --init --recursive
 
+For documentation including full and current installation instructions, see the
+source URL of each plugin in [`.gitmodules`](.gitmodules).
+
 ### `ale` (ALE)
 
 General linter framework. Configured in `base.vim`.
 
 ### `deoplete.nvim`
 
-An general autocompleter that integrates spontaneously with ALE..
+A general autocompleter that integrates spontaneously with ALE. Enabled in
+`base.nvim`.
+
+**Setup**: You may need to `:UpdateRemotePlugins` to get this to work.
 
 ### `deoplete-jedi`
 
-Part of a Python-specific extension of `deoplete`. This needs the `jedi` Python
-package to work.
+A Python-specific extension of `deoplete`.
 
-### nuuid.vim
+**Setup**: This needs the `jedi` Python package.
+
+### `nuuid.vim`
 
 `<leader>u` inserts a new v4 UUID. Good for data entry.
+
+### `palenight`
+
+A color sheme. Enabled in `base.vim`.
+
+### `parinfer-rust`
+
+An autoformatter for lots of Lisp dialects.
+
+**Setup**: This needs Rust and `clang` (incl. `libclang-dev`), then you `cargo
+build --release` it in place.
