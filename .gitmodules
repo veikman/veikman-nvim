@@ -1,3 +1,12 @@
 [submodule "start/vim-nuuid"]
 	path = start/vim-nuuid
 	url = https://github.com/kburdett/vim-nuuid
+[submodule "start/deoplete.nvim"]
+	path = start/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "start/ale"]
+	path = start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "start/deoplete-jedi"]
+	path = start/deoplete-jedi
+	url = https://github.com/deoplete-plugins/deoplete-jedi
