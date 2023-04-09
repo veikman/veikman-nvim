@@ -1,14 +1,5 @@
 " neovim configuration snippet.
 " Personal, but not confidential or specific to the role of a machine.
-" This is designed for use with sway (hence Wayland) and the Concertina
-" keyboard, Colemak key layout.
-
-" To include this snippet in your configuration, add a “source” statement to
-" your init.vim file, like this:
-"
-" if filereadable(expand("~/.local/share/nvim/site/pack/veikman-nvim/config/base.vim"))
-"   source ~/.local/share/nvim/site/pack/veikman-nvim/config/base.vim
-" endif
 
 filetype plugin indent on
 
