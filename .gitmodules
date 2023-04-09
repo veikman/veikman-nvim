@@ -1,0 +1,3 @@
+[submodule "start/vim-nuuid"]
+	path = start/vim-nuuid
+	url = https://github.com/kburdett/vim-nuuid
