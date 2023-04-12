@@ -56,7 +56,7 @@ General linter framework. Configured in `base.vim`.
 A general autocompleter that integrates spontaneously with ALE. Enabled in
 `base.nvim`.
 
-**Setup**: You may need to `:UpdateRemotePlugins` to get this to work.
+**Setup**: In Neovim, run `:UpdateRemotePlugins`.
 
 ### `deoplete-jedi`
 
