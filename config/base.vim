@@ -52,15 +52,11 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-" Using different Python autoformatters in different projects. Needs cleanup.
-let python_formatter = 'black'
-let python_formatter = 'yapf'
-
 " ALE plugin configuration.
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
-\   'python': ['isort', python_formatter],
+\   'python': ['isort', 'black'],
 \}
 let g:ale_fix_on_save = 1  " Enable fix-on-save.
 
