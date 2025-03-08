@@ -56,7 +56,7 @@ endif
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
-\   'python': ['isort', 'black'],
+\   'python': ['ruff', 'ruff_format'],
 \   'rust': ['rustfmt'],
 \}
 let g:ale_fix_on_save = 1  " Enable fix-on-save.
